@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0px;
+            font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+            box-sizing: border-box;
+        }
+        .parent-container{
+            background-color: #e9e9e9;
+            
+
+        }
+        .container{
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .upper,.lower{
+            display: flex;
+            
+        }
+        h5{
+            font-size: 24px;
+            font-family: "Mukta";
+            font-weight: 800;
+            margin: 8px 0px;
+        }
+        .section{
+            display: flex;
+            padding-right: 5px;
+        }
+        img{
+            align-self:start;
+            margin:0px 16px 8px 0px;
+        }
+        p{
+            
+            margin-top: 0px;
+        }
+       
+
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        @media only screen and (max-width: 600px) {
+            .upper,.lower{
+            display: flex;
+            flex-direction: column;
+            }
+            img{
+                align-self: center;
+            }
+            h5{
+                text-align: center;
+            }
+        }
+
+        /* Medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 768px) {
+            .container{
+                max-width: 720px;
+            }
+
+           
+        }
+
+        /* Large devices (laptops/desktops, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            .container{
+                max-width: 960px;
+            }
+        }
+
+        /* Extra large devices (large laptops and desktops, 1200px and up) */
+        @media only screen and (min-width: 1200px) {
+            .container{
+                max-width: 1140px;
+                }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent-container">
+
+        <div class="container">
+            <div class="upper">
+            <div class="upper section">
+                <img src="https://mishrabhavesh.github.io/Law-Firm/icon1.png" alt="image">
+                <div class="upper-body">
+                    <h5>Criminal Law</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatem atque vero!</p>
+                </div>
+            </div>
+            
+            <div class="upper section">
+                <img src="https://mishrabhavesh.github.io/Law-Firm/icon-2.png" alt="image">
+                <div class="upper-body">
+                    <h5>Real Estate Law</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatem atque vero!</p>
+                </div>
+            </div>
+            
+            <div class="upper section">
+                <img src="https://mishrabhavesh.github.io/Law-Firm/icon-2.png" alt="image">
+                <div class="upper-body">
+                    <h5>Family Law</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatem atque vero!</p>
+                </div>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="lower section">
+                <img src="https://mishrabhavesh.github.io/Law-Firm/icon-4.png" alt="image">               
+                <div class="lower-body">
+                    <h5>International Law</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatem atque vero!</p>
+                </div>
+            </div>
+            <div class="lower section">
+                <img src="https://mishrabhavesh.github.io/Law-Firm/icon-5.png" alt="image">
+                <div class="lower-body">
+                    <h5>Financial Law</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatem atque vero!</p>
+                </div>
+            </div>
+            <div class="lower section">
+                <img src="https://mishrabhavesh.github.io/Law-Firm/icon-6.png" alt="image">
+                <div class="lower-body">
+                    <h5>Technology Law</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatem atque vero!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
